@@ -39,11 +39,9 @@ This project is a Python-based web application that predicts Bitcoin (or other c
 ## File Structure
 ```
 .
-├── app.py                # Flask backend application
+├── bitcoin_predictor.py                # Flask backend application
 ├── templates
 │   └── index.html       # Frontend template
-├── static               # Static files (CSS, JS, Images, etc.)
-├── requirements.txt     # Python dependencies
 ├── README.md            # Project documentation
 ├── coin_list_cache.pkl  # Cached coin list (auto-generated)
 ```
